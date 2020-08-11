@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "C:/ARM Embedded GCC/8.2.1-1.4-20190214-0604/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+				"C:/ARM Embedded GCC/8.2.1-1.4-20190214-0604/include",
+				"C:/ARM Embedded GCC/8.2.1-1.4-20190214-0604/arm-none-eabi/include/sys/",
+				"C:/ARM Embedded GCC/8.2.1-1.4-20190214-0604/lib/**",
+
+				"${workspaceRoot}\\Drivers\\**",
+				"${workspaceRoot}\\Core/Src\\**",
+				"${workspaceRoot}\\Core/Inc\\**"
+            ],
+            "defines": [
+				"USE_FULL_LL_DRIVER",
+				"STM32F407xx",
+				"M4",
+				"GCC_ARMCM4"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
